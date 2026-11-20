@@ -39,25 +39,12 @@ h1 {
   line-height: 1.5;
 }
 
-.source {
-  display: inline-flex;
-  align-items: center;
-  min-height: 3rem;
-  padding-inline: 1.2rem;
-  border-radius: 0.625rem;
-  color: #fff;
-  background: #142b47;
+.status {
+  margin: 0;
+  color: #405a75;
+  font-size: 1rem;
   font-weight: 600;
-  text-decoration: none;
-}
-
-.source:hover {
-  background: #294766;
-}
-
-.source:focus-visible {
-  outline: 0.1875rem solid #a64820;
-  outline-offset: 0.25rem;
+  line-height: 1.5;
 }
 
 .artwork {
