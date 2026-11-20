@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title"><title id="title">InternVLA-D — centred avatar</title><g transform="translate(7.6 13) scale(0.9)">
+<path id="flag" fill="#EF763C" d="M276 47C303 33 319 43 339 53C360 65 386 63 407 52C389 82 368 94 340 88C314 82 291 77 271 89Z"/>
+<path id="mast" fill="#142B47" d="M249 62L265 60L258 112L241 113Z"/>
+<path id="d-sail" fill="#142B47" fill-rule="evenodd" d="M244 126C294 122 342 122 381 138C429 157 454 194 451 242C447 321 386 364 218 363ZM283 159L264 330C339 332 391 304 395 248C401 193 364 157 283 159Z"/>
+<path id="foresail" fill="#142B47" d="M228 137C216 216 203 291 208 350C170 333 130 337 91 355C114 289 172 194 228 137Z"/>
+<path id="hull" fill="#142B47" d="M73 374C206 377 383 378 472 368C440 406 408 435 344 436C276 439 231 401 141 429C112 416 91 397 73 374Z"/>
+<path id="wave" fill="#142B47" d="M119 468C160 430 198 432 226 440C290 461 348 468 411 441C376 477 320 482 273 471C205 452 177 443 119 468Z"/>
+</g></svg>

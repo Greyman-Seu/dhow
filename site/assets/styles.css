@@ -1,0 +1,94 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #142b47;
+  background: #f7f9fc;
+  font-synthesis: none;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: grid;
+  align-items: center;
+  margin: 0;
+  background: linear-gradient(155deg, #fff 20%, #eaf1f8);
+}
+
+.hero {
+  width: min(67rem, 100% - 3rem);
+  margin-inline: auto;
+  padding-block: clamp(2rem, 7vh, 5rem);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  align-items: center;
+  gap: clamp(2rem, 8vw, 7rem);
+}
+
+.project {
+  margin: 0 0 1rem;
+  color: #425b75;
+  font-size: 0.875rem;
+  font-weight: 650;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(4.5rem, 10vw, 8.5rem);
+  font-weight: 750;
+  letter-spacing: -0.075em;
+  line-height: 0.95;
+}
+
+.tagline {
+  margin: 1.25rem 0 2rem;
+  color: #405a75;
+  font-size: clamp(1.25rem, 2.5vw, 1.625rem);
+  line-height: 1.5;
+}
+
+.source {
+  display: inline-flex;
+  align-items: center;
+  min-height: 3rem;
+  padding-inline: 1.2rem;
+  border-radius: 0.625rem;
+  color: #fff;
+  background: #142b47;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.source:hover {
+  background: #294766;
+}
+
+.source:focus-visible {
+  outline: 0.1875rem solid #a64820;
+  outline-offset: 0.25rem;
+}
+
+.artwork {
+  border: 1px solid #dbe5ef;
+  border-radius: clamp(1.5rem, 4vw, 3rem);
+  background: #ffffffa8;
+}
+
+.artwork img {
+  display: block;
+  width: 82%;
+  height: auto;
+  margin: 9% auto;
+}
+
+@media (max-width: 44rem) {
+  .hero {
+    grid-template-columns: 1fr;
+    max-width: 28rem;
+  }
+
+  .artwork {
+    max-width: 24rem;
+  }
+}
